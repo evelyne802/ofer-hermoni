@@ -1,0 +1,77 @@
+.menu {
+    width: 100vw;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding: 40px 60px;
+    color: #ebebeb;
+    letter-spacing: 0.2em;
+    z-index: 2;
+}
+
+.menu-buttons {
+    display: flex;
+}
+
+.btn {
+    margin: 0 20px;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+}
+
+
+.btn::after {
+    content: "";
+    position: absolute;
+    width: 90%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 0.08em;
+    top: 32px;
+    left: 2%;
+    background: currentcolor;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.btn:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.contact-menu {
+    cursor: pointer;
+    height: 30px;
+}
+  
+.dropdown-content {
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    background-color: #cdcdcd;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: all .5s ease;
+    margin-top: 5px;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.contact-menu:hover .dropdown-content {
+    opacity: 1;
+    height: 200px;
+}

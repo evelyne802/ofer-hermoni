@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@font-face {
+    font-family: 'nuku-nuku';
+    src: url('assets/fonts/nuku-nuku/nuku1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --text-outline-color: #000000;
+    --text-outline: -1px -1px 0 var(--text-outline-color), 1px -1px 0 var(--text-outline-color), -1px 1px 0 var(--text-outline-color), 1px 1px 0 var(--text-outline-color);
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+button, 
+button:focus,
+button:active {
+    border: none !important;
+    outline: none !important;
+    outline-style: none !important;
+    background-color: #ffffff00;
+}
+
+.custom-dialog-container {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.images-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95vw;
+    height: 70svh;
+}
+
+.carousel-control {
+    position: relative;
+    background-color: #ffffff00;
+    height: 100px;
+    width: 45px;
+    text-align: center;
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    border: none;
+    cursor: pointer;
+    transition:all 0.7s;
+    -webkit-transition:all 0.7s;
+    -moz-transition: all 0.7s;
+  }
+
+  .left {
+    padding-right: 5px 
+  }
+
+  .left-arrow-icon {
+    margin: auto;
+    height: 22px;
+    width: 13px;
+  }
+
+  .left:hover .left-arrow-icon {
+    background: url('./assets/images/left-arrow-hover.png');
+  }
+
+  .right {
+    padding-left: 5px;
+  }
+
+  .right-arrow-icon {
+    margin: auto;
+    height: 22px;
+    width: 13px;
+  }
+
+  .right:hover .right-arrow-icon {
+    background: url('./assets/images/right-arrow-hover.png');
+  } */

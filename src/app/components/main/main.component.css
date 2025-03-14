@@ -1,0 +1,101 @@
+.background {
+    height: 100dvh;
+    background-image: url("../../../assets/images/background.png");
+    background-position: 25% 75%;
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    padding: 95px;
+    flex-wrap: wrap;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-transform: uppercase;
+    color: #ebebeb;
+    margin: 60px 0;
+}
+
+.title {
+    font-size: 7.5rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+    padding: 0 15px;
+    letter-spacing: 0.05cm;
+}
+
+img {
+    -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+.side-images {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.bottom-images {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.salmon {
+    height: 155px;
+    width: 165px;
+    margin: 0 0 0 0;
+}
+
+.edamame {
+    height: 100px;
+    margin: 0 175px 35px 0;
+    align-self: flex-end;
+}
+
+.tuna-tataki {
+    height: 170px;
+    margin: -30px 125px 0px 0;
+    align-self: flex-end;
+    rotate: 25deg;
+}
+
+.yakitori {
+    height: 160px;
+    margin: 0 25px 0 0;
+}
+
+.wakame {
+    height: 140px;
+    margin: 55px 160px 10px 0px;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.7s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
