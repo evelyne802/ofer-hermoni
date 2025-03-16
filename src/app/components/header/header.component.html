@@ -1,9 +1,26 @@
 <div class="menu">
-    <div class="contact-menu">CONTACT OFER
-        <div class="dropdown-content">
-            <a href="https://api.whatsapp.com/send?phone=972528806979">0528806979</a>
-            <a href="https://www.instagram.com/chef.ofer.hermoni.tenka/">&#64;chef.ofer.hermoni.tenka</a>
-            <a href="https://www.facebook.com/ofer.hermoni.5">Ofer Hermoni</a>
+    <div>
+        <div (click)="openMenu()" [class]="contactMenuBtnClass">CONTACT OFER</div>
+        <div [class]="dropdownMenuClass">
+            <div (click)="closeMenu()" class="close"></div>
+            <a [class]="menuItemsClass" href="https://api.whatsapp.com/send?phone=972528806979" target="_blank">
+                <div>
+                    <img src="../../../assets/images/whatsapp.png">
+                    0528806979
+                </div>
+            </a>
+            <a [class]="menuItemsClass" href="https://www.instagram.com/chef.ofer.hermoni.tenka/" target="_blank">
+                <div>
+                    <img src="../../../assets/images/instagram.png">
+                    &#64;chef.ofer.hermoni.tenka
+                </div>
+            </a>
+            <a [class]="menuItemsClass" href="https://www.facebook.com/ofer.hermoni.5" target="_blank"> 
+                <div>
+                    <img src="../../../assets/images/facebook.png">
+                    Ofer Hermoni
+                </div>
+            </a>
         </div>
     </div>
     <div class="menu-buttons">
