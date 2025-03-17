@@ -5,16 +5,19 @@
         <label class="subtitle">オフェル ヘレモニ</label>
         <label class="subtitle">{{ titleDescription }}</label>
     </div>
-    <div class="side-images fade-in">
+    <div *ngIf="screenSize > 1245" class="side-images fade-in">
         <img class="wakame" src="../../../assets/images/wakame-salad.png">
         <div>
             <img class="yakitori" src="../../../assets/images/yakitori.png">
             <img class="salmon" src="../../../assets/images/salmon-sashimi.png">
         </div>
     </div>
-    <div class="bottom-images fade-in">
+    <div *ngIf="screenSize > 1245" class="bottom-images fade-in">
         <img class="edamame" src="../../../assets/images/edamame.png">
         <img class="tuna-tataki" src="../../../assets/images/tuna-tataki.png">
+    </div>
+    <div *ngIf="990 > screenSize">
+        <img class="salmon" src="../../../assets/images/salmon-sashimi.png">
     </div>
 </div>
 
