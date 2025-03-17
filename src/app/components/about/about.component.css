@@ -1,0 +1,16 @@
+.background {
+    height: 100dvh;
+    background-image: url("../../../assets/images/background.png");
+    background-position: 25% 75%;
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    padding: 95px;
+    flex-wrap: wrap;
+}

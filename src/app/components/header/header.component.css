@@ -165,12 +165,27 @@
     }
 }
 
+@media screen and (max-width:550px){
+    .btn{
+        margin: 10px 15px;
+    }
+}
 
-@media screen and (max-width:450px){
+@media screen and (max-width:470px){
     .menu {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
 
+    .btn::after {
+        top: 24px;
+    }
+
+    .btn {
+        margin:10px;
+    }
+}
+
+@media screen and (max-width:450px){
     .menu-item {
         letter-spacing: 0.7mm;
         padding: 15px 50px;
@@ -178,18 +193,6 @@
 }
 
 @media screen and (max-width:410px){
-    .menu {
-        font-size: 1rem;
-    }
-
-    .btn{
-        margin: 10px 15px;
-    }
-
-    .btn::after {
-        top: 27px;
-    }
-
     .menu-item {
         letter-spacing: 0.7mm;
         padding: 15px 50px;

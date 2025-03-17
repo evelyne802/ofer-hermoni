@@ -7,7 +7,7 @@ import { NgIf } from '@angular/common';
   standalone: true,
   imports: [ 
     HeaderComponent,
-    NgIf
+    NgIf,
   ],
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.css']
